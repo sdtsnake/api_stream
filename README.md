@@ -27,6 +27,7 @@ arreglos tenemos stream.builder() el cual podermos hacer llenada usando el .add(
   ================= <br> 
 *Nota : IntSummaryStatistics se usa en conjunto MapToInt y con el flujo IntStream existe tambien sus equivalentes para Long y Double.* <br>
 + .forEach() -> nos permite recorrer el resultado del stream <br> 
++ .reduce() -> Permite recorrer un stream desde un valor inicial los elemento de una manera asociativa para obtener un valor <br>
 
 # Operadores Intermedios
 + .map() -> es del tipo function y manipula la informacion del stream y retorna un valor resultado de esa operacion del tipo del flujo que se esta analizando <br>
